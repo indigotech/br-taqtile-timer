@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "site": "taqtile-timer",
+      "public": "app/views",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/timer.html"
+        }
+      ]
+    }
+  ]
+}
